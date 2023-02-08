@@ -2,20 +2,23 @@
 
 header{
     color: white;
-   
     text-align: center;
 }
 
 body{
-    background-image: linear-gradient(to right, #d10202,#d48b03,#cece02,#008000,#0303a0,#450175); 
-    
+    background-image: linear-gradient(#0000006b,#0000006b),url(escola.jpg);
+    padding-top: 100px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover;
 }
 
 section{
     background-image: url("https://img.freepik.com/vetores-premium/folha-de-papel-de-caderno-em-branco-com-linhas_77417-1591.jpg");
     border-radius: 10px;
-    box-shadow: 20px 10px 10px 5px rgba(0, 0, 0, 0.596);
+    box-shadow: 5px 5px 10px #00000098;
     width: 346px;
+    
     margin: auto;
     padding: 1px 0px 3px 5px; 
     border: solid 1px #45017575;
@@ -24,14 +27,15 @@ section{
 .digite{
     width: 150px;
     border-radius: 5px;
-    border: solid 2px #450175;
-    background: #dcdddc;
+    border: solid 1px #7dc6f7;
+    background: #e9e9e9;
 }
 
 .botao{
-    border: solid 2px #450175;
+    border: solid 1px #7dc6f7;
     border-radius: 5px;
     background-color: #fdfffd18;
+    cursor: pointer;
 }
 .botao:hover{
     color:white;

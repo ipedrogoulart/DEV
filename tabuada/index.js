@@ -13,6 +13,7 @@ function calcular(){
             item.text = `${n} x ${t} = ${n*t}`
             resul.appendChild(item)
             t++
+            
         }
     
     }

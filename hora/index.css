@@ -1,0 +1,54 @@
+body{
+    background: #188bf7;
+    font: normal 15pt Arial;
+}
+
+header{
+    color:white;
+    text-align:center;
+}
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 20px #3a3a3a8a;
+}
+
+@media screen and (max-width:550px){
+    section{
+        width: 250px;
+    }
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+@media screen and (max-width:550px){
+    div{
+        font-size: 16px;
+    }
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.281);
+}
+
+@media screen and (max-width:550px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+
+}

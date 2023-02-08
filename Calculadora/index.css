@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(#0000006b,#0000006b),url(mesa2.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+
+
+section{
+    background-color: #474747;
+    width: 275px;
+    height: 350px;  
+    border-radius: 10px;
+    padding: 5px 5px 0px 5px;
+    border-bottom: solid 2px #374303;
+    border-right: solid 2px #374303;
+    border-top: solid 2px #8f8f8f;
+    border-left: solid 2px #8f8f8f;
+}
+
+.div1{
+    
+    height: 30px;
+    width: 260px;
+    display: flex;
+}
+
+.div2{
+    float: right;
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+.div{
+    display: inline-block;
+    line-height: 20px;
+    background-color: #220e0eee;
+    color: #220e0eee;
+    margin-right: -5px;
+    width: 30px;
+    
+}
+
+.div3{
+    border-right: #727272 2px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.div4{
+    border-left: #727272 1px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.text{
+    width: 260px;
+    height: 33px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    background-color: #95977f;
+    border-bottom: solid 2px #7a7a7a;
+    border-right: solid 2px #7a7a7a;
+    border-top: solid 2px #272727;
+    border-left: solid 2px #272727;
+    text-align: end;
+}
+
+p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+.botao{
+    width: 60px;
+    height: 40px;
+    font-size: large;
+    margin-left: 7px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border-bottom: solid 2px #374303;
+    border-right: solid 2px #374303;
+    border-top: solid 1px #84941c;
+    border-left: solid 1px #84941c;
+    background-color: #2b2a2a;
+    color:white;
+    cursor: pointer;
+    
+}
+.botao1{
+    width: 195px;
+    height: 40px;
+    font-size: large;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: #2b2a2a;
+    border-bottom: solid 2px #374303;
+    border-right: solid 2px #374303;
+    border-top: solid 1px #84941c;
+    border-left: solid 1px #84941c;
+    cursor: pointer;
+    color: white;
+
+}
+

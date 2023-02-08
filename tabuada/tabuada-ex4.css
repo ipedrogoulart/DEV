@@ -1,0 +1,59 @@
+*{font-family: arial;}
+
+header{
+    color: white;
+   
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(to right, #d10202,#d48b03,#cece02,#008000,#0303a0,#450175); 
+    
+}
+
+section{
+    background-image: url("https://img.freepik.com/vetores-premium/folha-de-papel-de-caderno-em-branco-com-linhas_77417-1591.jpg");
+    border-radius: 10px;
+    box-shadow: 20px 10px 10px 5px rgba(0, 0, 0, 0.596);
+    width: 346px;
+    margin: auto;
+    padding: 1px 0px 3px 5px; 
+    border: solid 1px #45017575;
+}
+
+.digite{
+    width: 150px;
+    border-radius: 5px;
+    border: solid 2px #450175;
+    background: #dcdddc;
+}
+
+.botao{
+    border: solid 2px #450175;
+    border-radius: 5px;
+    background-color: #fdfffd18;
+}
+.botao:hover{
+    color:white;
+    background-color:#0289f786;
+    transition: 0.3s;
+}
+
+select{
+    
+    padding-top: 5px;
+    border: solid 1px #fefcff00;
+    background-color: #fdfdfd00;
+    
+}
+
+div{
+    font-family: arial;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+
+}

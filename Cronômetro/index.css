@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #646363;
+}
+
+.section{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+div{
+    font-size: 150px;
+}
+
+.btn-area{
+    display: block;
+    margin-top: 2rem;
+}
+
+.start{
+    background-color: green;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 110px;
+    height: 40px;
+    border: black 2px solid;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.pause{
+    background-color: yellow;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 110px;
+    height: 40px;
+    border: black 2px solid;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.reset{
+    background-color: red;
+    font-size: 25px;
+    border-radius: 15px;
+    width: 110px;
+    height: 40px;
+    border: black 2px solid;
+    margin-left: 20px;
+    cursor: pointer;
+}
